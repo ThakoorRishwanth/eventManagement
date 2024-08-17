@@ -3,6 +3,7 @@
 const initialState = {
     user: null,
     token: localStorage.getItem('token') || null,
+    objectId: localStorage.getItem('objectId') || null,
     isAuthenticated: false,
     loading: false,
     error: null,
